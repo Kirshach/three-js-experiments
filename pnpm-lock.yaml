@@ -13,6 +13,7 @@ specifiers:
   typescript: ^4.4.4
   typescript-plugin-css-modules: ^3.4.0
   vite: ^2.7.2
+  zustand: ^3.6.9
 
 dependencies:
   '@react-three/fiber': 7.0.24_219cd54b391a5f28fe99f6b525368df2
@@ -20,6 +21,7 @@ dependencies:
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   three: 0.136.0
+  zustand: 3.6.9_react@17.0.2
 
 devDependencies:
   '@types/node': 17.0.8
@@ -322,7 +324,7 @@ packages:
       three: 0.136.0
       use-asset: 1.0.4_react@17.0.2
       utility-types: 3.10.0
-      zustand: 3.6.8_react@17.0.2
+      zustand: 3.6.9_react@17.0.2
     dev: false
 
   /@rollup/pluginutils/4.1.2:
@@ -1484,8 +1486,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /zustand/3.6.8_react@17.0.2:
-    resolution: {integrity: sha512-8dqxig1l/o/N4M3DGxhweLVyCvNsd40oU3fXuY4MfqX1notavmjljCnSeTN3FGfYzbo963w4un2ChYsPB/0gKA==}
+  /zustand/3.6.9_react@17.0.2:
+    resolution: {integrity: sha512-OvDNu/jEWpRnEC7k8xh8GKjqYog7td6FZrLMuHs/IeI8WhrCwV+FngVuwMIFhp5kysZXr6emaeReMqjLGaldAQ==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       react: '>=16.8'
