@@ -1,12 +1,11 @@
-import { Canvas } from "@react-three/fiber";
-import Box from "./components/Box";
+import Box from "src/components/Box";
 
-import { useIsVR } from "hooks/useIsVR";
+import { useCanvas } from "src/hooks/useCanvas";
 
 const App = () => {
-  const vr = useIsVR();
+  const Canvas = useCanvas();
   return (
-    <Canvas vr={vr}>
+    <Canvas>
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
       <Box position={[-1.2, 0, 0]} />

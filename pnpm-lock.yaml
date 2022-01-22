@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@react-three/fiber': ^7.0.24
+  '@react-three/xr': ^3.2.0
   '@types/node': ^17.0.8
   '@types/react': ^17.0.33
   '@types/react-dom': ^17.0.10
@@ -18,10 +19,12 @@ specifiers:
 
 dependencies:
   '@react-three/fiber': 7.0.24_219cd54b391a5f28fe99f6b525368df2
+  '@react-three/xr': 3.2.0_b03273ac7ad81acd23e73404f4d498ce
   '@types/three': 0.136.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   three: 0.136.0
+  tweakpane: 3.0.7
   zustand: 3.6.9_react@17.0.2
 
 devDependencies:
@@ -329,6 +332,20 @@ packages:
       zustand: 3.6.9_react@17.0.2
     dev: false
 
+  /@react-three/xr/3.2.0_b03273ac7ad81acd23e73404f4d498ce:
+    resolution: {integrity: sha512-AjemVDCoZGH7+dV4cU+ZmWQ+6Ullord2D2sQU+1sGEs0OWnvaoPB6UVfaOjY/fAxpriE7QVaFJCPrb7AdKViOw==}
+    peerDependencies:
+      '@react-three/fiber': '>=6.0.3'
+      react: '>=17.0'
+      react-dom: '>=17.0'
+    dependencies:
+      '@react-three/fiber': 7.0.24_219cd54b391a5f28fe99f6b525368df2
+      '@webxr-input-profiles/motion-controllers': 1.0.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-merge-refs: 1.1.0
+    dev: false
+
   /@rollup/pluginutils/4.1.2:
     resolution: {integrity: sha512-ROn4qvkxP9SyPeHaf7uQC/GPFY6L/OWy9+bd9AwcjOAWQwxRscoEyAUD8qCY5o5iL4jqQwoLk2kaTKJPb/HwzQ==}
     engines: {node: '>= 8.0.0'}
@@ -386,6 +403,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@webxr-input-profiles/motion-controllers/1.0.0:
+    resolution: {integrity: sha512-Ppxde+G1/QZbU8ShCQg+eq5VtlcL/FPkerF1dkDOLlIml0LJD1tFqnCZYR0SrHzYleIQ2siRnOx7xbFLaCpExQ==}
+    dev: false
 
   /ansi-styles/3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
