@@ -9,21 +9,20 @@
   "dependencies": {
     "@react-three/fiber": "^7.0.24",
     "@react-three/xr": "^3.2.0",
-    "@types/three": "^0.136.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "three": "^0.136.0",
-    "tweakpane": "^3.0.7",
     "zustand": "^3.6.9"
   },
   "devDependencies": {
     "@types/node": "^17.0.8",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
+    "@types/three": "^0.136.1",
     "@vitejs/plugin-react": "^1.0.7",
-    "tweakpane": "^3.0.7",
     "typescript": "^4.4.4",
     "typescript-plugin-css-modules": "^3.4.0",
+    "uil": "^4.0.9",
     "vite": "^2.7.2"
   }
 }
