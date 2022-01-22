@@ -5,9 +5,7 @@ import path from "path";
 export default defineConfig({
   resolve: {
     alias: {
-      components: path.resolve(__dirname, "src/components"),
-      hooks: path.resolve(__dirname, "src/hooks"),
-      stores: path.resolve(__dirname, "src/stores"),
+      src: path.resolve(__dirname, "src"),
     },
   },
   css: {

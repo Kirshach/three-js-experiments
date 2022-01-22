@@ -17,14 +17,8 @@
     "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
-      "components/*": [
-        "src/components/*" 
-      ],
-      "hooks/*": [
-        "src/hooks/*"
-      ],
-      "stores/*": [
-        "src/stores/*"
+      "src/*": [
+        "src/*" 
       ]
     },
     "plugins": [{"name": "typescript-plugin-css-modules"}]

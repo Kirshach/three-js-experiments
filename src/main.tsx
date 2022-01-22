@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-import { subscribeToAppMode } from "stores/app/subscriptions";
+import { subscribeToAppMode } from "src/stores/app/subscriptions";
 
 ReactDOM.render(
   <React.StrictMode>
