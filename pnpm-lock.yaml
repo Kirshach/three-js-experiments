@@ -7,6 +7,7 @@ specifiers:
   '@types/react': ^17.0.33
   '@types/react-dom': ^17.0.10
   '@types/three': ^0.136.1
+  '@types/webxr': ^0.2.3
   '@vitejs/plugin-react': ^1.0.7
   react: ^17.0.2
   react-dom: ^17.0.2
@@ -30,6 +31,7 @@ devDependencies:
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
   '@types/three': 0.136.1
+  '@types/webxr': 0.2.3
   '@vitejs/plugin-react': 1.1.4
   typescript: 4.5.5
   typescript-plugin-css-modules: 3.4.0_typescript@4.5.5
@@ -385,6 +387,10 @@ packages:
 
   /@types/three/0.136.1:
     resolution: {integrity: sha512-gzTw6RR4dU8sGf+RpLBWWKHRVIJ4gwKVQPk+IFCgha04Efg/itXYUalX6iBcYeSmaDu0qE5M7uTq0XLQpU4FAg==}
+    dev: true
+
+  /@types/webxr/0.2.3:
+    resolution: {integrity: sha512-MCxbyG4KIcx8+g1RwX9uRYsEfRncWLKtGhzSFh+j8fNOgnuzuBAabGJZz45iU4JvPeqaKaLRqQt6o92NMprmwQ==}
     dev: true
 
   /@vitejs/plugin-react/1.1.4:

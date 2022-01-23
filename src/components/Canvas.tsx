@@ -2,11 +2,9 @@ import React from "react";
 import { Canvas as RegularCanvas } from "@react-three/fiber";
 import { VRCanvas } from "@react-three/xr";
 
-import { useIsVR } from "src/hooks/useIsVR";
-
 const Canvas: React.FC = ({ children }) => {
-  const isVR = useIsVR();
-  const Canvas = isVR ? VRCanvas : RegularCanvas;
+  // TODO: add XR typing to navigator
+  const Canvas = (window.navigator as any).xr ? VRCanvas : RegularCanvas;
   return <Canvas>{children}</Canvas>;
 };
 
