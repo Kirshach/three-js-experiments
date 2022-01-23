@@ -5,7 +5,7 @@ type GUIType = "number" | "string";
 
 interface GUIParams {
   name: string;
-  type: GUIType;
+  type?: GUIType;
 }
 
 const DEV = import.meta.env.DEV;
@@ -13,18 +13,19 @@ const DEV = import.meta.env.DEV;
 // @ts-ignore
 let gui = DEV && new (await import("uil")).Gui();
 
+// TODO: declare UIL types
 const useGUIController = <T>(
   ref: RefObject<T>,
-  pathTo: (string | number)[],
+  pathTo: string[],
   params: GUIParams
 ) => {
   if (DEV) {
     React.useEffect(() => {
       if (ref.current === null) {
-        return;
+        throw new Error("ref.current is null");
       }
       const prop = pathTo.pop();
-      const obj = path(ref.current as T, pathTo);
+      const obj = path(ref.current, pathTo);
       gui.add(obj, prop, params);
     }, []);
   }
