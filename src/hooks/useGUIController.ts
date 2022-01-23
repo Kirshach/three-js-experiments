@@ -14,11 +14,16 @@ const DEV = import.meta.env.DEV;
 let gui = DEV && new (await import("uil")).Gui();
 
 // TODO: declare UIL types
+/**
+ * @param {RefObject} ref - Reference to a THREE.js object
+ * @param {string[]} pathTo - Path to a mutable reactive object
+ * @param {GUIParams} params - UIL paramateres object
+ */
 const useGUIController = <T>(
   ref: RefObject<T>,
   pathTo: string[],
   params: GUIParams
-) => {
+): void => {
   if (DEV) {
     React.useEffect(() => {
       if (ref.current === null) {
