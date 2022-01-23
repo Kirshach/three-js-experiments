@@ -11,7 +11,7 @@ specifiers:
   react: ^17.0.2
   react-dom: ^17.0.2
   three: ^0.136.0
-  typescript: ^4.4.4
+  typescript: ^4.5.5
   typescript-plugin-css-modules: ^3.4.0
   uil: ^4.0.9
   vite: ^2.7.2
@@ -31,8 +31,8 @@ devDependencies:
   '@types/react-dom': 17.0.11
   '@types/three': 0.136.1
   '@vitejs/plugin-react': 1.1.4
-  typescript: 4.5.4
-  typescript-plugin-css-modules: 3.4.0_typescript@4.5.4
+  typescript: 4.5.5
+  typescript-plugin-css-modules: 3.4.0_typescript@4.5.5
   uil: 4.0.9
   vite: 2.7.10
 
@@ -1427,7 +1427,7 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /typescript-plugin-css-modules/3.4.0_typescript@4.5.4:
+  /typescript-plugin-css-modules/3.4.0_typescript@4.5.5:
     resolution: {integrity: sha512-2MdjfSg4MGex1csCWRUwKD+MpgnvcvLLr9bSAMemU/QYGqBsXdez0cc06H/fFhLtRoKJjXg6PSTur3Gy1Umhpw==}
     peerDependencies:
       typescript: '>=3.0.0'
@@ -1445,13 +1445,13 @@ packages:
       sass: 1.48.0
       stylus: 0.54.8
       tsconfig-paths: 3.12.0
-      typescript: 4.5.4
+      typescript: 4.5.5
     transitivePeerDependencies:
       - ts-node
     dev: true
 
-  /typescript/4.5.4:
-    resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
